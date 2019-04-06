@@ -1,14 +1,12 @@
 'use strict';
 
 {
-    const ul = document.querySelector('ul');
-    // console.log(ul.parentNode); // body
-    // console.log(ul.children); // li
-    console.log(ul.children[0]); // li
+    const h1 = document.querySelector('h1');
 
-    for (let i = 0; i < ul.children.length; i++) {
-        console.log(ul.children[i].textContent);
-    } 
+    // h1.title = "Changed!";
+
+    h1.style.color = 'gray';
+    h1.style.backgroundColor = 'pink';
 }
 
 
