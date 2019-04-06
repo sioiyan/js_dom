@@ -1,10 +1,14 @@
 'use strict';
 
 {
-    document.querySelector('h1').textContent = 'H1!'
-    document.querySelectorAll('li:nth-child(odd)').forEach(li => {
-        li.textContent = 'li!';
-    });
+    const ul = document.querySelector('ul');
+    // console.log(ul.parentNode); // body
+    // console.log(ul.children); // li
+    console.log(ul.children[0]); // li
+
+    for (let i = 0; i < ul.children.length; i++) {
+        console.log(ul.children[i].textContent);
+    } 
 }
 
 
