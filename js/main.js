@@ -1,10 +1,7 @@
 'use strict';
 
 {
-    // Document Object Model (DOM)
-
-    document.body.textContent = 'Hello';
-    document.title = 'Changed!';
+   document.getElementById("target").textContent = "Changed!";
 }
 
 
